@@ -7,9 +7,9 @@ collections:
   services:
     output: true
     permalink: /services/:path/
-  team:
+  client:
     output: true
-    permalink: /team/:path/
+    permalink: /client/:path/
   testimonials:
     output: true
     permalink: /testimonials/:path/
@@ -28,7 +28,7 @@ defaults:
 sass:
   style: compact # possible values: nested expanded compact compressed
 
-google_analytics_id: null
+google_analytics_id: UA-137263855-1
 
 plugins:
   - jekyll-environment-variables

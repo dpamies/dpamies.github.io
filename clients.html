@@ -1,0 +1,38 @@
+---
+title: Clients
+layout: default
+bodyClass: page-client-list
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Els nostres clients</h1>
+        <p>
+          El nostre equip de consultors qualificats pot ajudar al vostre negoci en qualsevol
+          moment del seu creixement.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row"><div class="col-12">&nbsp;</div></div>
+  <div class="row">
+    {% for client in site.client %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="client client-summary">
+        {% if client.image %}
+        <div class="client-image">
+          <a target="_blank" href="{{ client.clienturl }}">
+            <img alt="{{ client.title }}" class="img-fluid mb-2" src="{{site.baseurl}}{{ client.image }}" />
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

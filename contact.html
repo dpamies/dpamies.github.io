@@ -1,29 +1,30 @@
 ---
 title: Contact
 layout: default
-bodyClass: page-contact
+bodyClass: page-contact-list
 ---
 
-<div class="intro intro-small">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>Contact</h1>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="container">
+  <p>&nbsp;</p>
+</div>
+<div class="container" style="position: relative; z-index: 1;pointer-events: none;">
   <div class="row">
-    <div class="col-12 col-md-8">
+    <div class="col-md-7"></div>
+    <div class="col-12 col-md-5 contact-info">
+      <h1>Contacte</h1>
+      <p>Ens trobar&agrave;s a:</p>
       <ul>
-        <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
-        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
-            {{ site.data.contact.email }}</a></li>
-        {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+	{% if site.data.contact.address %}
+        <li><strong>Adre&ccedil;a: </strong>{{ site.data.contact.address }}</li>
         {% endif %}
+        <li><strong>Tel&egrave;fon : </strong>{{ site.data.contact.phone }}</li>
+        <li><strong>Correu electr&ograve;nic: </strong><a href="mailto:{{ site.data.contact.email }}">
+            {{ site.data.contact.email }}</a></li>
       </ul>
     </div>
   </div>
+</div>
+<div class="container-fluid embed-responsive embed-responsive-16by9" style="position:absolute; top:230px; bottom:45px;">
+  https://www.openstreetmap.org/?mlat=41.1565&mlon=1.0245#map=11/41.1565/1.0245&layers=T
+  <iframe class="embed-responsive-item" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=0.9492874145507814%2C41.06518280096458%2C1.2706375122070315%2C41.247678698653985&amp;layer=transportmap&amp;marker=41.1565519297738%2C1.1097049713134766" ></iframe>
 </div>

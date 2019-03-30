@@ -1,0 +1,16 @@
+---
+title: 'Intel&middot;lig&egrave;ncia de negoci'
+image: '/services/noun_1013177.png'
+---
+
+Sistemes de presa de decisions, Anàlisi de dades complexes, Quadres de comandament, Sistemes d'informes, Big data
+
+## Sistemes de presa de decisions
+
+## Anàlisi de dades complexes
+
+## Quadres de comandament
+
+## Sistemes d'informes
+
+## Big data

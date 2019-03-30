@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
-  },
-  {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Coneixement",
+    "description": "Tots els membres del nostre equip són professionals altament formats.",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Col&middot;laboraci&oacute;",
+    "description": "Ens agrada estar a prop dels nostres clients en tot moment.",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Tecnologia",
+    "description": "Estem pendents de totes les novetats tecnologiques que poden aportar valor.",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]

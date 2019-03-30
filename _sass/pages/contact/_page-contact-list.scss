@@ -1,0 +1,18 @@
+.page-contact-list {
+  background-image: url('../images/undraw_dish.svg');
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: 0px 30px;
+  @include media-breakpoint-up(sm) {
+    background-size: 90%;
+    background-position: 0px 30px;
+  }
+  @include media-breakpoint-up(md) {
+    background-size: 90%;
+    background-position: 0px 40px;
+  }
+  @include media-breakpoint-up(lg) {
+    background-size: 800px;
+    background-position: 0px 30px;
+  }
+}

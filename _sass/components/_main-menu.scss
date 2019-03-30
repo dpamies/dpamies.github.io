@@ -64,5 +64,11 @@
         transition: all 225ms ease-in 0s;
       }
     }
+
+    > li {
+      > a.current {
+        font-weight: 800;
+      }
+    }
   }
 }

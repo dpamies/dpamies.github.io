@@ -1,17 +1,17 @@
-.team-summary {
+.client-summary {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  .team-image {
+  .client-image {
     flex: 0;
     margin-right: 10px;
     img {
-      border-radius: 50%;
-      height: 100px;
-      width: 100px;
+      filter: grayscale(100%);
+      opacity: 0.5;
+      width: 300px;
     }
   }
-  .team-meta {
+  .client-meta {
     flex: 1;
     h2 {
       margin: 0;
@@ -22,7 +22,7 @@
     a {
     }
   }
-  .team-content {
+  .client-content {
     flex: 1 0 100%;
   }
 }

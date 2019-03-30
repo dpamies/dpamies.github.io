@@ -1,5 +1,6 @@
 .header {
   height: 50px;
+  z-index: 10;
   color: $primary;
   background-color: #ffffff;
   display: flex;
@@ -10,12 +11,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .header-social {
-    height: inherit;
-    display: none;
-    @include media-breakpoint-up(lg) {
-      display: block;
-    }
   }
 }

@@ -51,11 +51,9 @@
 @import 'components/page';
 @import 'components/header';
 @import 'components/footer';
-@import 'components/sub-footer';
 @import 'components/logo';
 @import 'components/main-menu';
 @import 'components/main-menu-mobile';
-@import 'components/social';
 @import 'components/hamburger';
 @import 'components/buttons';
 @import 'components/title';
@@ -67,9 +65,9 @@
 
 // Pages
 @import 'pages/home';
-@import 'pages/team/team-list';
-@import 'pages/team/team-summary';
-@import 'pages/team/page-team-list';
+@import 'pages/client/client-list';
+@import 'pages/client/client-summary';
+@import 'pages/client/page-client-list';
 @import 'pages/testimonials/testimonials-list';
 @import 'pages/testimonials/testimonials-summary';
 @import 'pages/testimonials/page-testimonials-list';
@@ -77,6 +75,9 @@
 @import 'pages/services/page-services-single';
 @import 'pages/services/service-single';
 @import 'pages/services/service-summary';
+@import 'pages/contact/contact-info';
+@import 'pages/contact/page-contact-list';
+
 
 // Display breakpoints for DEV
 // body:after {
