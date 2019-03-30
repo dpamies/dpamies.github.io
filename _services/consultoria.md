@@ -1,9 +1,8 @@
 ---
 title: 'Consultoria'
 image: '/services/noun_1013177.png'
+summary: 'Auditories de seguretat, Reglament General de Protecció de Dades, estratègia TIC, ISO i EFQM.'
 ---
-
-Auditories de Seguretat, Reglament General de Protecció de Dades, Estratègia TIC, Consultoria ISO i EFQM
 
 ## Auditories de Seguretat
 

@@ -1,11 +1,12 @@
 ---
 title: 'Programari'
 image: '/services/noun_1013177.png'
+summary: 'Desenvolupament a mida, apps, integració de sistemes, programari de gestió, gestors de continguts, gestió documental, e-learning.'
 ---
 
-Desenvolupament a mida, Integració de sistemes, Programari de gestió, Gestors de continguts, Gestió documental, E-learning, Apps.
-
 ## Desenvolupament a mida
+
+## Apps
 
 ## Integració de sistemes
 
@@ -16,5 +17,3 @@ Desenvolupament a mida, Integració de sistemes, Programari de gestió, Gestors 
 ## Gestió documental
 
 ## E-learning
-
-## Apps

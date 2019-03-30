@@ -8,9 +8,9 @@ bodyClass: page-services-list
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Serveis que creixen amb el vostre negoci</h1>
+        <h1>Al servei del vostre negoci</h1>
         <p>
-          Millorant els processos mitjançant l'aplicació de les tecnologies adequades en cada moment.
+          Millorant els processos mitjançant l'aplicació de les tecnologies m&eacute;s adequades per a cada moment.
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ bodyClass: page-services-list
           <h2 class="service-title">
             <a href="#">{{ service.title }}</a> <!--{{site.baseurl}}{{service.url}} -->
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          {{ service.summary | markdownify | strip_html }}
         </div>
       </div>
     </div>

@@ -1,15 +1,15 @@
 ---
-title: 'Smart things'
+title: 'Smart Things'
 image: '/services/noun_1013177.png'
+summary: 'Smart cities, smart buildings, logística, vehicle elèctric, connectivitat en entorns heterogenis.'
 ---
-Vehicle elèctric, Smart cities, Smart buildings, Logística, Connectivitat en entorns heterogenis
-
-## Vehicle elèctric
 
 ## Smart cities
 
 ## Smart buildings
 
 ## Logística
+
+## Vehicle elèctric
 
 ## Connectivitat en entorns heterogenis
