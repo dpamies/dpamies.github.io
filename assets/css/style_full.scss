@@ -1,0 +1,18 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+// Pages
+@import 'pages/home';
+@import 'pages/client/client-list';
+@import 'pages/client/client-summary';
+@import 'pages/client/page-client-list';
+@import 'pages/testimonials/testimonials-list';
+@import 'pages/testimonials/testimonials-summary';
+@import 'pages/testimonials/page-testimonials-list';
+@import 'pages/services/page-services-list';
+@import 'pages/services/page-services-single';
+@import 'pages/services/service-single';
+@import 'pages/services/service-summary';
+@import 'pages/contact/contact-info';
+@import 'pages/contact/page-contact-list';
